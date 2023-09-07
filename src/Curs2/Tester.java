@@ -16,6 +16,13 @@ public class Tester {
 		ratePerHour = salariuPeOra;
 	}
 	
+	public Tester(int salariuPeOra, int varsta, String denumire) {
+		this.ratePerHour = salariuPeOra;
+		this.varsta = varsta;
+		this.nume = denumire; //self in Python
+		
+		
+	}
 	//metode
 
 }

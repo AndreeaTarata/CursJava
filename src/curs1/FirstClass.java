@@ -35,7 +35,7 @@ public class FirstClass {
  * CLASA Tester() -> OBIECT1, Ob 2, Ob 3 (refolosim cod)
  * 
  * public class Tester(){
- *//declarare
+ //declarare
  * String nume;
  * static String prenume;
  * 
