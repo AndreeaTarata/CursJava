@@ -25,7 +25,7 @@ public class SalaryCalculator {
 		
 		System.out.println("Salariul lui " + tester3.nume + " este " + salCal.calculateSalary(tester3.ratePerHour));
 		System.out.println(tester3.nume + " este de senioritate " + tester3.senioritate);
-		System.out.println(tester3.nume + " este " + tester3.sex);
+		System.out.println(tester3.nume + " este de sex " + tester3.sex);
 		;
 	}
 
