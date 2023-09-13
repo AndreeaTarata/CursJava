@@ -16,6 +16,7 @@ public class VariableScope {
 
 	
 	public void afiseazaMesaj(int mesaj) { //tot variabila locala
+		
 		System.out.println(nume);
 	}
 }

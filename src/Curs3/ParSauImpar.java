@@ -44,7 +44,8 @@ public class ParSauImpar {
 	}
 	
 		public String checkOddOrEven2() {
-			if(askTheUserForANumber2() % 2 == 0 ) {
+			if(askTheUserForANumber2()
+					% 2 == 0 ) {
 				return "Number is even!";
 				
 				
