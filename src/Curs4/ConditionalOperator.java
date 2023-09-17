@@ -33,6 +33,16 @@ public class ConditionalOperator {
 			}else {
 				System.out.println("Este negativ");
 			}
+			String result = (num1>0)? "Este pozitiv" : "Este negativ";
+			System.out.println(result);
+			// verific num2
+			result = (num2>0)? "Este pozitiv" : "Este negativ";
+			System.out.println(result);
+			//verific daca ambele sunt pozitive sau negative
+			result = (num1>0 && num2>0)? "Sunt pozitive" : "Sunt negative";
+			//verific care este mai mare (dar ar putea fi egale
+			result = (num1>num2)? "Num1 is the greatest" : (num2>num1)? "Num1 este mai mare ca num2" : "Numbers are equal";
+			
 			
 		}
 }

@@ -50,15 +50,15 @@ public class SimpleCalculator {
 			printResult();
 			//System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
 		}else if( operator == '-') {
-			result = num1 + num2;
+			result = num1 - num2;
 			printResult();
 			//System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
-		}else if( operator == '+') {
-				result = num1 + num2;
+		}else if( operator == '*') {
+				result = num1 * num2;
 				printResult();
 				//System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
-		}else if( operator == '+') {
-			result = num1 + num2;
+		}else if( operator == '/') {
+			result = num1 / num2;
 			printResult();
 			//System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
 		}else {
