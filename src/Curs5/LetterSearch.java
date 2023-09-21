@@ -28,7 +28,7 @@ public class LetterSearch {
 	
 	public void searchForA() {
 		
-		int counter = 0;
+		int counter = 0; //de cate ori o conditie este indeplinita
 		
 		for(int i=0; i<text.length(); i++) {
 			

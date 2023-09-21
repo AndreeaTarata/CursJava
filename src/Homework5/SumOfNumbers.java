@@ -8,29 +8,21 @@ public class SumOfNumbers {
 	public void askTheUser() {
 
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Please enter number: ");
 		num = scan.nextInt();
 
 	}
 
 	public void askUserTenNumbers() {
 
-		for (int i = 0; i < 10; i++) {
-
-			askTheUser();
-
-		}
-
-	}
-
-	public void sumTenNumbers() {
-		int counter = 0;
 		int suma = 0;
-
-		for (int i = 0; i < 10; i++) {
-			counter++;
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("Please enter number: "+ i);
+			askTheUser();
 			suma += num;
+
 		}
 		System.out.println(suma);
+
 	}
+
 }

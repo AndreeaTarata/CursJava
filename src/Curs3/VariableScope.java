@@ -2,7 +2,7 @@ package Curs3;
 
 public class VariableScope {
 	
-	//variabila de instanta
+	//variabila de instanta - obiect
 	String nume;
 	
 	public void greetings() {

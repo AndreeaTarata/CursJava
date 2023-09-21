@@ -6,7 +6,7 @@ public class TestSumOfNumbers {
 		
 		SumOfNumbers obj = new SumOfNumbers();
 		obj.askUserTenNumbers();
-		obj.sumTenNumbers();
+
 		
 
 	}
