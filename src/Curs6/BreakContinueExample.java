@@ -11,8 +11,8 @@ public class BreakContinueExample {
 	{
 
 		if (i == 4) {
-			// break;// intrerupe
-			continue;// face skip
+			break;// intrerupe
+			//continue;// face skip
 		}
 		System.out.println(i);
 	}
