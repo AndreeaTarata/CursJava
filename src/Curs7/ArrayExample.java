@@ -23,7 +23,7 @@ public class ArrayExample {
 		for(int i = 0; i< textArray.length; i++) {
 			System.out.print(textArray[i]);
 		}
-		System.out.println("\n---------------");
+		System.out.println("\n---------------");//muta pe linia urmatoare
 		// for each
 		
 		for(String element : textArray) {
