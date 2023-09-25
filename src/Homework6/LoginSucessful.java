@@ -56,12 +56,13 @@ public class LoginSucessful {
 
 			System.out.println("Login error");
 			System.out.println(nrIncercari);
-
-			getUserName();
+			
+			username = getUserName();
+			
 
 			System.out.println(username);
 
-			getPassword();
+			pass = getPassword();
 			System.out.println(pass);
 			nrIncercari++;
 
