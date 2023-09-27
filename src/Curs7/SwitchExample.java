@@ -31,7 +31,7 @@ public class SwitchExample {
 
 		case "C": 
 			System.out.println("Suficient");
-			break;
+			//break;
 
 		case "D": 
 			System.out.println("Insuficient");

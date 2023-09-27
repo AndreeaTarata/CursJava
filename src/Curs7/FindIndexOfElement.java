@@ -3,7 +3,7 @@ package Curs7;
 public class FindIndexOfElement {
 	
 	/*
-	 * Avem un arary
+	 * Avem un array
 	 * si facem o metoda prin care vrem sa aflam indexul unui element
 	 * ex de print : index pt el 8 este 3
 	 */
@@ -27,8 +27,8 @@ public class FindIndexOfElement {
 	// for each
 	public void rezolvareCuForEach(int element) {
 			int counter = 0;
-		for(int obj : numbers) {
-			if(obj == element) {
+		for(int numar : numbers) {
+			if(numar == element) {
 				System.out.println("Index pt element" + element + "este" +counter);
 			}
 			counter++;
