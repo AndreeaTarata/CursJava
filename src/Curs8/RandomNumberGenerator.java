@@ -5,7 +5,7 @@ import java.util.Random;
 
 /*
  * program care genereaza 6 numere random intre 0 si 9
- * numerelele se tine intr-un array
+ * numerelele se tin intr-un array
  * nu tine numere duplicate
  * printeaza arrayul
  * 
@@ -36,9 +36,10 @@ public class RandomNumberGenerator {
 				
 			randomNR = random.nextInt(MAX_NUMBERS);
 			}while(checkDuplicateNumber(numbers, randomNR));
-			//System.out.println(numbers[i]);
-			//System.out.println(Arrays.toString(numbers));
 			numbers[i] = randomNR;
+			System.out.println(numbers[i]);
+			System.out.println(Arrays.toString(numbers));
+			
 			
 		}
 	}
