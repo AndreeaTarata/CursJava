@@ -2,14 +2,14 @@ package Curs8;
 
 public class TesterAutomat extends Tester{
 	
-	private String progrmmingLanguage;
+	private String programmingLanguage;
 
-	public String getProgrmmingLanguage() {
-		return progrmmingLanguage;
+	public String getProgrammingLanguage() {
+		return getProgrammingLanguage();
 	}
 
-	public void setProgrmmingLanguage(String progrmmingLanguage) {
-		this.progrmmingLanguage = progrmmingLanguage;
+	public void setProgrammingLanguage(String progrmmingLanguage) {
+		this.programmingLanguage = progrmmingLanguage;
 	}
 
 }
