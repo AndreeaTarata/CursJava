@@ -18,7 +18,7 @@ public class FirstClass {
 		System.out.println("Test");
 		FirstClass obiect = new FirstClass();
 		obiect.trimiteMesaj();
-		obiect.trimiteSMS();
+		//obiect.trimiteSMS();
 		trimiteSMS();
 	}
 	

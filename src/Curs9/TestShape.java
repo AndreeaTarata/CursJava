@@ -10,6 +10,7 @@ public class TestShape {
 		Cerc cerc = new Cerc();
 		cerc.draw();
 		System.out.println("-----------------------");
+		
 		Patrat patrat = new Patrat();
 		patrat.draw();
 	}
