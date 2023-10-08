@@ -4,7 +4,7 @@ public class Masina extends Vehicul{
 
 	public Masina(String brand, String nivelPoluare, int vitezaMedie) {
 		
-		setBrand(brand);
+		setBrand(brand);// asa se declara constructorul prin getter si setter
 		setNivelPoluare(nivelPoluare);
 		setVitezaMedie(vitezaMedie);
 	}

@@ -11,7 +11,7 @@ public class ExceptionExample4 {
 			
 		}catch(Exception e) {
 			System.out.println("Error occured");
-			System.out.println(4/0);
+			//System.out.println(4/0);
 		}finally {
 			System.out.println("Finnaly block of code");
 			

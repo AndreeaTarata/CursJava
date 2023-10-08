@@ -15,7 +15,7 @@ public class TestAgeVerifier {
 			obj.checkAgeLimit(age);
 		} catch (InvalidAgeException e) {
 			
-			e.printStackTrace();
+			e.printStackTrace();// printeaza tot istoricul erorilor de unde le ia
 		}
 		
 		

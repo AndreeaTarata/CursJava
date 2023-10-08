@@ -3,7 +3,7 @@ package Curs10;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ExceptuonExample3 {
+public class ExceptionExample3 {
 
 	public static void main(String[] args) {
 
