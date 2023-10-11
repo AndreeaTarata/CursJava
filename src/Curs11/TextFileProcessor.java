@@ -35,6 +35,7 @@ public class TextFileProcessor {
 				}
 			
 			scan.close();
+			
 		}catch(IOException e) {
 			e.printStackTrace();
 			
