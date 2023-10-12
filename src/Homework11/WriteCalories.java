@@ -20,28 +20,29 @@ public class WriteCalories {
 			// outPutStream.close();
 
 		} catch (IOException e) {
+			
 			e.printStackTrace();
 
 		}
 	}
-	public void readPropertiesFile(String key) {
+	public String readPropertiesFile(String key) {
 
 		try (InputStream inputStream = new FileInputStream("calorii.properties")) {
 
 			Properties listaCalorii = new Properties();
 			listaCalorii.load(inputStream);
 			
-
 	
-			System.out.println(listaCalorii.getProperty(key));
+			return listaCalorii.getProperty(key); // daca am String/ Boolean, Integer vine cu Return la sfarsit
 
 		} catch (IOException e) {
-			System.out.println("Nu vindem aceasta leguma! Va rugam alegeti alta!");
+			
 			e.printStackTrace();
 			
 
 		}
-	}
+return null;
+}
 }
 
 

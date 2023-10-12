@@ -12,8 +12,15 @@ public class TestCalories {
 		scan.close();
 		
 		WriteCalories scrieCalorii = new WriteCalories();
+		 
 		scrieCalorii.writePropertiesFile();
-		scrieCalorii.readPropertiesFile(leguma);
+		
+		if(scrieCalorii.readPropertiesFile(leguma) != null) {
+			System.out.println(scrieCalorii.readPropertiesFile(leguma));
+		}else {
+			System.out.println("Nu vindem aceasta leguma");
+		}
+		
 
 	}
 
