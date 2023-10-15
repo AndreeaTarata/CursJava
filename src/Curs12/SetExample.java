@@ -6,7 +6,7 @@ import java.util.Set;
 public class SetExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		Set<String> set = new HashSet<>();
 		System.out.println(set.size());
@@ -27,7 +27,9 @@ public class SetExample {
 		System.out.println(set.contains("mov"));
 		
 		set.remove("alb");
+		System.out.println("------------");
+		System.out.println(set);
 		// nu are valori duplicate si nu are index
 	}
-
+	
 }

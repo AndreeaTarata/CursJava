@@ -14,12 +14,10 @@ public class GenericExample {
 
 	}
 	
-	public static <T> void printDetails(T obj) {// obiect de tip generics
+	public static <T> void printDetails(T obj) {// obiect de tip generics // extends Number - restriction cu double cu int etc
 		
 		System.out.println("Obiect" + obj);
 		System.out.println("Data type obiect" + obj.getClass().getName());
-		
-		
 		
 	}
 	
